@@ -1,0 +1,236 @@
+body {
+    font-family: 'Sulphur Point', sans-serif;
+    background-color: #F2FFFC;
+    font-size: 100%;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1,
+h2,
+.subtitulo-principal {
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+}
+
+.titulo-principal {
+    font-family: 'Sulphur Point', sans-serif;
+    text-align: center;
+    background: #3C1D3D;
+    background: -webkit-linear-gradient(to right, #851944, #3C1D3D);
+    background: linear-gradient(to right, #851944, #3C1D3D);
+    color: #FFF;
+    padding: 2rem;
+}
+
+.subtitulo-texto {
+    font-size: 1.5em;
+    clear: both;
+}
+
+main a {
+    color: #851944;
+}
+
+main a:hover,
+main a:focus,
+footer a:focus,
+footer a:hover {
+    color: red;
+}
+
+main p {
+    text-align: justify;
+    margin: 1em 0;
+}
+
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 1em;
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: 'Sulphur Point', sans-serif;
+
+    text-transform: lowercase;
+    text-decoration:none;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
+}
+
+.navegacao-site h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+    margin-top: 30px;
+}
+
+.github {
+    background-image: url(../imagens/github.png);
+}
+
+.twitter {
+    background-image: url(../imagens/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../imagens/linkedin.png);
+}
+
+main {
+    padding-bottom: 4em;
+    flex-grow: 1;
+    margin-bottom: 120px;
+}
+
+.navegacao-site {
+    border-bottom: .2em solid black;
+    box-sizing: border-box;
+    border-radius: 0em 0em 2em 2em;
+    margin-bottom: 120px;
+}
+
+.navegacao-site {
+    width: calc(0.9 * 250px);
+}
+
+.minha-foto {
+    border: .1em solid rgb(228, 228, 228);
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.icones-redes-sociais a {
+    position: relative;
+}
+
+.icones-redes-sociais a:hover{
+    top:-6px;
+}
+
+.navegacao-fixa {
+    position: fixed;
+}
+
+/* ------- Footer Customizado -------*/
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #3C1D3D 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #3C1D3D 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    border-radius: 30px;
+    background: #3C1D3D;
+    background: -webkit-linear-gradient(to right, #851944, #3C1D3D);
+    background: linear-gradient(to right, #851944, #3C1D3D);
+}
+.footer #cont{
+    position:relative;
+    top:-45px;
+    right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+    text-align:center;
+}
+.footer h3{
+    font-family: 'Sulphur Point', sans-serif;
+    color: #FFF;
+	font-size: 20px;
+	font-weight: 100;
+	margin-top:80px;
+	margin-left:40px;
+}
+/*------------------------------------*/
